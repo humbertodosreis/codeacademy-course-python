@@ -42,7 +42,8 @@ def hex_rgb():
 
 def convert():
     while True:
-        option = raw_input("Enter 1 to convert RGB to HEX. Enter 2 to convert HEX to RGB. Enter X to Exit: ")
+        option = raw_input("Enter 1 to convert RGB to HEX. Enter 2 to convert \
+         HEX to RGB. Enter X to Exit: ")
         if option == '1':
             rgb_hex()
         elif option == '2':
